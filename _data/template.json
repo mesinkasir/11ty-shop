@@ -1,0 +1,51 @@
+[
+  {
+ "cover": "/img/bootstrap11tyblog.webp",
+ "title": "Bootstrap11ty",
+ "description": "Bootstrap starter for 11ty eleventy with auto SEO",
+ "url": "https://eleventyblog.vercel.app/",
+ "link": "https://www.hockeycomputindo.com/2022/03/eleventy-bootstrap-web-template-seo.html"
+ },
+  {
+ "cover": "/img/thisis11ty.webp",
+ "title": "Thisis 11ty SEO",
+ "description": "Clasic Blog template with full SEO eleventy 11ty",
+ "url": "https://programrestoran.web.app/",
+ "link": "https://www.hockeycomputindo.com/2022/04/membangun-website-blog-seo-dengan-11ty.html"
+ },
+  {
+ "cover": "/img/text11ty.webp",
+ "title": "Text 11ty",
+ "description": "Simple blast fat web template with text 11ty",
+ "url": "https://text11ty.pages.dev/",
+ "link": "https://www.hockeycomputindo.com/2022/04/membuat-website-dengan-eleventy.html"
+ },
+  {
+ "cover": "/img/mobile11ty.webp",
+ "title": "Mobile 11ty",
+ "description": "Built all in one website and android app with mobile 11ty",
+ "url": "https://mobile11ty.pages.dev/",
+ "link": "https://www.hockeycomputindo.com/2022/04/new-mobile11ty-eleventy-build-website.html"
+ },
+  {
+ "cover": "/img/cool11ty.webp",
+ "title": "Cool 11ty",
+ "description": "Freemium version cool design UI for eleventy 11ty ",
+ "url": "https://statisweb.pages.dev",
+ "link": "https://www.hockeycomputindo.com/2022/06/new-eleventy-11ty-web-modern-template.html"
+ },
+  {
+ "cover": "/img/cuteblog11ty.webp",
+ "title": "Cuteblog 11ty",
+ "description": "Unique and cute design with cuteblog 11ty eleventy",
+ "url": "https://cuteblog.pages.dev/",
+ "link": "https://www.hockeycomputindo.com/2022/04/cuteblog-11ty-for-eleventy-generator.html"
+ },
+  {
+ "cover": "/img/shop11ty.webp",
+ "title": "Shop 11ty",
+ "description": "Built modern online shop with eleventy 11ty",
+ "url": "https://github.com/mesinkasir/11ty-shop",
+ "link": "https://www.hockeycomputindo.com/2022/11/built-online-shop-website-with-static.html"
+ }
+]

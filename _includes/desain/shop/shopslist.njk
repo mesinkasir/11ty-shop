@@ -1,0 +1,15 @@
+<div class="row justify-content-center">
+<h3><strong>New Products</strong></h3>
+<p>{{home.shop}}</p>
+{% for shop in shopslist | reverse %}
+  <div class="col-md-4 col-6 p-3">
+  <a href="{{ shop.url | url }}" class="text-dark">
+  {% if shop.data.cover %}<img class="img-fluid rounded" alt="{{shop.title}}" loading="lazy" width="100%" height="100%" src="{{shop.data.cover}}"/>{% endif %}
+    <div class="p-3">
+    <h4><strong>{% if shop.data.title %}{{ shop.data.title }}{% else %}<code>{{ shop.url }}</code>{% endif %}</strong></h4>
+    {% if shop.data.description %}<p>{{shop.data.description}}</p>{% endif %}
+    </div>
+  </a>
+  </div>
+{% endfor %}
+  </div>

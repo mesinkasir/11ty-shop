@@ -1,0 +1,11 @@
+<div class="row justify-content-center">
+<h3><strong>New Post</strong></h3>
+<p>{{home.blog}}</p>
+{% for post in postslist | reverse %}
+<div class="col-md-4 col-6 p-3"><a href="{{ post.url | url }}" class="text-dark">
+{% if post.data.cover %}<img class="img-fluid rounded" alt="{{post.title}}" loading="lazy" width="100%" height="100%" src="{{post.data.cover}}"/>{% endif %}
+{% if post.data.title %}<h4><strong>{{ post.data.title }}</strong></h4>{% else %}<code>{{ post.url }}</code>{% endif %}
+{% if post.data.description %}<p>{{post.data.description}}</p>{% endif %}</a>
+</div>
+{% endfor %}
+</div>

@@ -1,0 +1,10 @@
+<div class="container mt-5">
+<h1 class="text-center">Menu</h1>
+<div  class="row black p-3">
+{% for tag in collections.tagList | filterTagList %}
+  {% set tagUrl %}/tags/{{ tag | slug }}/{% endset %}
+  <a href="{{ tagUrl | url }}" class="col-md-4 col-6 p-1">{{ tag }}</a>
+{% endfor %}
+</div>
+</div>
+{% include "widget/contact.njk" %}

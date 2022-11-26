@@ -1,0 +1,11 @@
+<div class="container-fluid">
+<div class="row">
+{% set maxPosts = collections.posts.length | min(3) %}
+<h3 class="col=md-12 p-3 p-md-5 text-center"><a href="{{ '/' | url }}"><strong><span class="border-bottom border-dark p-3">Update New {% if maxPosts == 1 %}Post{% else %}{{ maxPosts }} Posts{% endif %}</span></a></strong></h3>
+{% set postslist = collections.posts | head(-3) %}
+{% set postslistCounter = collections.posts | length %}
+{% include "postslist.njk" %}
+<p class="col=md-12 p-3 mb-5 text-center"><a href="{{ '/posts/' | url }}" class="btn btn-lg btn-outline-dark">Explore Blog</a></p>
+</div>
+</div>
+<a href="https://www.fiverr.com/creativitas/design-your-modern-website-using-jekyll"><img class="img-fluid" alt="{{metadata.title}}" width="100%" height="100%" src="/img/hireme.webp"/></a>

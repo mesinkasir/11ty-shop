@@ -1,0 +1,6 @@
+<div class="container mt-5">
+<h1 class="text-center">Search for {{ tag }}</h1>
+{% set postslist = collections[ tag ] %}
+{% include "postslist.njk" %}
+<p class="p-3 text-center"><a href="{{ '/tags/' | url }}" class="btn btn-lg btn-outline-dark">Explore All</a></p>
+</div>

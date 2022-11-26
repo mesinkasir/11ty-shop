@@ -1,0 +1,4 @@
+{% set maxShops = collections.shops.length | min(4) %}
+{% set shopslist = collections.shops | head(-4) %}
+{% set shopslistCounter = collections.shops | length %}
+{% include "desain/blog/shopslist.njk" %}

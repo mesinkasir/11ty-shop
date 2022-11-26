@@ -1,0 +1,27 @@
+{
+  "title": "11ty Shop Website",
+  "description": "Pembuatan website dengan modern teknologi company profile, sekolah, cafe,resto, restaurant,shop all in one static site generator.",
+  "url": "https://11tyshop.pages.dev/",
+  "shopname": "Shop",
+  "banner": "/img/mesinkasirrestoranonline.webp",
+  "language": "id",
+  "locale": "id_ID",
+  "tweet": "@hockeycomp",
+  "gst": "ebvLr84CVTSpjtrusz7g7RB21J384B2SJOGrau8jl04",
+  "icon": "/img/eleventy.png",
+  "feed": {
+    "subtitle": "Pembuatan website dengan modern teknologi company profile, sekolah, cafe,resto, restaurant,shop all in one static site generator.",
+    "filename": "feed.xml",
+    "path": "/feed/feed.xml",
+    "id": "https://11tyshop.pages.dev/"
+  },
+  "jsonfeed": {
+    "path": "/feed/feed.json",
+    "url": "https://example.com/feed/feed.json"
+  },
+  "author": {
+    "name": "creativitas",
+    "email": "creativebydre@gmail.com",
+    "url": "https://www.fiverr.com/creativitas/design-your-modern-website-using-jekyll"
+  }
+}

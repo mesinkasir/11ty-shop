@@ -1,0 +1,10 @@
+<div class="container">    
+<h1 class="text-center p-3"><strong><a href="{{page.url}}">{{title}}</a></strong></h1>
+<h2 class="text-center">{{description}}</h2>
+  <div class="row mt-5 black text-white">
+{%- for entry in entries %}
+    <div class="col-md-4 p-3"><a href="{{ entry.url }}" class="p-1">{{ entry.data.title }}</a></div>
+{%- endfor %}
+  </div>
+</div>
+{% include "widget/contact.njk" %}

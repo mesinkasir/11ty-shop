@@ -1,0 +1,8 @@
+{%- set nextshop = collections.shops | getNextCollectionItem(page) %}
+{%- set previousshop = collections.shops | getPreviousCollectionItem(page) %}
+{%- if nextshop or previousshop %}
+<div class="col-md-12 p-3">
+  {%- if nextshop %}<a href="{{ nextshop.url | url }}" class="tag btn btn-dark black float-start">{{ nextshop.data.title }}</a>{% endif %}
+  {%- if previousshop %}<a href="{{ previousshop.url | url }}" class="tag btn btn-dark black float-end">{{ previousshop.data.title }}</a>{% endif %}
+</ul>
+{%- endif %}

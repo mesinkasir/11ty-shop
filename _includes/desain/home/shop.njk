@@ -1,0 +1,10 @@
+<div class="container-fluid">
+<div class="row">
+{% set maxShops = collections.shops.length | min(5) %}
+<h3 class="col=md-12 p-3 p-md-5 text-center"><strong><a href="{{ '/' | url }}"><span class="border-bottom border-dark p-3">{% if maxShops == 1 %} New Products{% else %}{{ maxShops }} New Products{% endif %} </span></a></strong></h3>
+{% set shopslist = collections.shops | head(-5) %}
+{% set shopslistCounter = collections.shops | length %}
+{% include "shopslist.njk" %}
+<p class="col=md-12 p-3 mb-5 text-center"><a href="{{ '/shops/' | url }}" class="btn btn-lg btn-outline-dark">Explore All Product</a></p>
+</div>
+</div>

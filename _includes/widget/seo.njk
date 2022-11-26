@@ -1,0 +1,20 @@
+<title>{{ title or metadata.title }}</title>
+<meta property="og:title" content="{{ title or metadata.title }}">
+<meta property="og:site_name" content="{{ title or metadata.title }}">
+<meta property="twitter:title" content="{{ title or metadata.title }}">
+<meta property="facebook:title" content="{{ title or metadata.title }}">
+<meta name="description" content="{{ description or metadata.description }}">  
+<meta property="twitter:description" content="{{ description or metadata.description }}">
+<meta property="og:description" content="{{ description or metadata.description }}">
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:site" content="{{metadata.tweet}}">
+<meta property="twitter:creator" content="{{metadata.tweet}}">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="{{metadata.locale}}">
+<meta property="og:url" content="{{metadata.url}}">
+<meta property="twitter:url" content="{{metadata.url}}">
+<meta property="og:image" content="{{ cover or metadata.banner}}">
+<meta property="twitter:image:alt" content="{{ title or metadata.title }}">
+<meta property="twitter:image" content="{{ cover or metadata.banner}}">
+<meta property="facebook:image" content="{{ cover or metadata.banner}}">
+<meta content='index, follow' name='robots'/>

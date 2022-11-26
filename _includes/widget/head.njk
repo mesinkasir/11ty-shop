@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="{{metadata.language}}">
+<head>
+<meta charset="utf-8">
+<meta name="google-site-verification" content="{{metadata.gst}}" />
+<meta name="viewport" content="width=device-width, initial-scale=1">
+{% include "widget/seo.njk" %}
+<meta name="generator" content="{{ eleventy.generator }}">
+<meta name="developer" content="{{ metadata.author.url }}">
+<link rel="apple-touch-icon" href="{{metadata.icon}}">
+<link rel="icon" type="image/x-icon" href="{{metadata.icon}}" />  
+<link rel="stylesheet" href="{{ '/css/bs.css' | url }}">
+<link rel="stylesheet" href="{{ '/css/index.css' | url }}">
+<link rel="alternate" href="{{ metadata.feed.path | url }}" type="application/atom+xml" title="{{ metadata.title }}">
+<link rel="alternate" href="{{ metadata.jsonfeed.path | url }}" type="application/json" title="{{ metadata.title }}">
+</head>
+<body>

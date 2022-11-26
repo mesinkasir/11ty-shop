@@ -1,0 +1,11 @@
+<div class="container-fluid">
+<div class="col-md-12 p-3 p-md-5">
+<h1><strong><a href="{{page.url}}">{{ title }}</a></strong></h1>
+<h2>{{ description }}</h2>
+<div class="bg-light p-3">
+{%- for tag in tags | filterTagList -%}
+{%- set tagUrl %}/tags/{{ tag | slug }}/{% endset -%}
+&nbsp;<a href="{{ tagUrl | url }}" class="tag">#{{ tag }}&nbsp;</a>
+{%- endfor %}
+</div>
+{% include "desain/shop/product.njk" %}

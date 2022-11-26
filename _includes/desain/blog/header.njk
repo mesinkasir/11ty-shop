@@ -1,0 +1,17 @@
+<div class="container-fluid">
+<div class="row">
+<div class="col-md-12 p-3 p-md-5">
+<h1><strong><a href="{{page.url}}">{{ title }}</a></strong></h1>
+<h2>{{ description }}</h2>
+<p>Update On : <time datetime="{{ page.date | htmlDateString }}">{{ page.date | readableDate }}</time></p>
+<div class="p-3 bg-light tag">
+Hastag: &nbsp;
+{%- for tag in tags | filterTagList -%}
+{%- set tagUrl %}/tags/{{ tag | slug }}/{% endset -%}
+<a href="{{ tagUrl | url }}" class="tag text-dark">#{{ tag }}&nbsp; </a>
+{%- endfor %}
+</div>
+<img class="img-fluid mt-3 mb-3 rounded" width="100%" height="100%" alt="{{title}}" src="{{cover}}"/>
+{{ content | safe }}
+{% include "desain/blog/nav.njk" %}
+</div>

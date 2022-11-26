@@ -1,0 +1,38 @@
+[
+  {
+ "cover": "/img/dark11ty.webp",
+ "title": "Dark Beauty",
+ "description": "Premium dark beauty template eleventy 11ty",
+ "url": "https://mesinkasironline.pages.dev/"
+ },
+  {
+ "cover": "/img/companyweb.webp",
+ "title": "Company Full",
+ "description": "Premium pro company profile themes for 11ty",
+ "url": "https://tokorak.web.app/"
+ },
+  {
+ "cover": "/img/simplecompany.webp",
+ "title": "Simple Company",
+ "description": "Clean design with premium pro simple company 11ty",
+ "url": "https://raktoko.web.app/"
+ },
+  {
+ "cover": "/img/bootstrap11ty.webp",
+ "title": "Bootstrap Premium",
+ "description": "Bootstrap taste with eleventy 11ty",
+ "url": "https://bootstrap11ty.pages.dev/"
+ },
+  {
+ "cover": "/img/proonlineshop.webp",
+ "title": "Pro Online Shop",
+ "description": "Built online shop with blast fast and SEO 11ty",
+ "url": "https://mesinkasironline.vercel.app/"
+ },
+  {
+ "cover": "/img/premiumonlineshop.webp",
+ "title": "Premium Shop",
+ "description": "Modern online shop static site generator 11ty",
+ "url": "https://tokokasir.vercel.app/"
+ }
+]

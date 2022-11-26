@@ -1,0 +1,12 @@
+<div class="row">
+{% for theme in template %}
+<div class="col-md-4 col-6 p-3">
+<img class="img-fluid rounded" alt="{{theme.title}}" width="100%" height="100%" loading="lazy" src="{{theme.cover}}"/>
+<div class="p-3">
+<h3><strong>{{theme.title}}</strong>
+<p><small>{{theme.description}}</small></p>
+<a href="{{theme.url}}" class="btn btn-dark">Demo</a> 
+<a href="{{theme.link}}" class="btn btn-outline-dark">Download</a> 
+</div>
+</div>
+{% endfor %}

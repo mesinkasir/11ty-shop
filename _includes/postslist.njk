@@ -1,0 +1,10 @@
+<div class="row justify-content-center">
+{% for post in postslist | reverse %}
+<div class="col-md-4 p-3 p-md-5">
+{% if post.data.cover %}<img class="img-fluid rounded mb-3" alt="{{post.title}}" width="100%" height="100%" loading="lazy" src="{{post.data.cover}}"/>{% endif %}
+{% if post.data.title %}<h4><strong><a href="{{ post.url | url }}" class="text-dark">{{ post.data.title }}</a></strong></h4>{% else %}<code>{{ post.url }}</code>{% endif %}
+{% if post.data.description %}<p>{{post.data.description}}</p>{% endif %}
+<a href="{{ post.url | url }}" class="btn btn-dark black">{{post.data.title}}</a>
+</div>
+{% endfor %}
+</div>
