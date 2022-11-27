@@ -8,7 +8,7 @@ starter online shop 11ty ecwid project.
 
 online shop with markdown just input product id and run your online shop.
 
-Demo standard : [https://11tyshop.pages.dev](https://11tyshop.pages.dev/)
+Demo standard : [https://11tyshop.pages.dev →](https://11tyshop.pages.dev/)
 
 Demo with image shop : [https://tokokasir.vercel.app →](https://tokokasir.vercel.app)
 
@@ -41,7 +41,7 @@ Design UI
 
 -------------------
 
-Demo standard : [https://11tyshop.pages.dev](https://11tyshop.pages.dev/)
+Demo standard : [https://11tyshop.pages.dev →](https://11tyshop.pages.dev/)
 
 Demo with image shop : [https://tokokasir.vercel.app →](https://tokokasir.vercel.app)
 
