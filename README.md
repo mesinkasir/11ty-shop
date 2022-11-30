@@ -14,6 +14,8 @@ Demo with image shop : [https://tokokasir.vercel.app →](https://tokokasir.verc
 
 Demo custom shop : [https://mesinkasironline.vercel.app →](https://mesinkasironline.vercel.app)
 
+Video: [https://youtu.be/LdUJlBhakVk](https://youtu.be/LdUJlBhakVk)
+
 Documentation : [https://www.hockeycomputindo.com/2022/11/built-online-shop-website-with-static.html →](https://www.hockeycomputindo.com/2022/11/built-online-shop-website-with-static.html)
 
 ----------------
@@ -41,3 +43,4 @@ Demo custom shop : [https://mesinkasironline.vercel.app →](https://mesinkasiro
 
 Documentation : [https://www.hockeycomputindo.com/2022/11/built-online-shop-website-with-static.html →](https://www.hockeycomputindo.com/2022/11/built-online-shop-website-with-static.html)
 
+Video: [https://youtu.be/LdUJlBhakVk](https://youtu.be/LdUJlBhakVk)
