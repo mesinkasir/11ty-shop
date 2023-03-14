@@ -18,6 +18,8 @@ Video: [https://youtu.be/LdUJlBhakVk](https://youtu.be/LdUJlBhakVk)
 
 Documentation : [https://www.hockeycomputindo.com/2022/11/built-online-shop-website-with-static.html →](https://www.hockeycomputindo.com/2022/11/built-online-shop-website-with-static.html)
 
+<a href="https://www.buymeacoffee.com/axcora"><img width="240" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgIA9HMwkK8kr7uRwVNxnhXsLQsJHxQQYVSzqCAaK58OpJOiTlzbIX7eEwS_VpJ3oEG-xrmVEl2WKqGvB_o-KjyBGTbbjFHM_bN2Jce9g3FTnt2ZJViwcvB9DHPOKPEMCl7jTQRVWKPw_ETloH7_CK8Xr09SSNNx22xnfGjViwdEsGtR-yGrLmr-JUGHA/s1090/bmc-button.png"/></a>
+
 ----------------
 
 Test Peform
@@ -44,3 +46,5 @@ Demo custom shop : [https://mesinkasironline.vercel.app →](https://mesinkasiro
 Documentation : [https://www.hockeycomputindo.com/2022/11/built-online-shop-website-with-static.html →](https://www.hockeycomputindo.com/2022/11/built-online-shop-website-with-static.html)
 
 Video: [https://youtu.be/LdUJlBhakVk](https://youtu.be/LdUJlBhakVk)
+
+<a href="https://www.buymeacoffee.com/axcora"><img width="240" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgIA9HMwkK8kr7uRwVNxnhXsLQsJHxQQYVSzqCAaK58OpJOiTlzbIX7eEwS_VpJ3oEG-xrmVEl2WKqGvB_o-KjyBGTbbjFHM_bN2Jce9g3FTnt2ZJViwcvB9DHPOKPEMCl7jTQRVWKPw_ETloH7_CK8Xr09SSNNx22xnfGjViwdEsGtR-yGrLmr-JUGHA/s1090/bmc-button.png"/></a>
