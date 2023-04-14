@@ -7,7 +7,7 @@ address: Ruko Pasar Wisata Juanda Blok Q.07
 city: Sidoarjo - East Java
 state: Indonesia
 phone: +62895339403223
-phone1: +6285646104747
+phone1: +62895339403223
 email: axcora@gmail.com
 icon1: /img/add.png
 icon2: /img/call.png
