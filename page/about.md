@@ -58,7 +58,7 @@ How to install ??
 [read documentation detail →](https://www.hockeycomputindo.com/2022/11/built-online-shop-website-with-static.html)
 
 
-[Buy me a coffee →](https://app.midtrans.com/payment-links/1647457988722) or [Hire Me →](https://www.fiverr.com/creativitas/design-your-modern-website-using-jekyll)
+[Buy me a coffee →](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=JVZVXBC4N9DAN) or [Hire Me →](https://www.hockeycomputindo.com/en/jamstack/)
 
 
 
