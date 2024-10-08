@@ -1,7 +1,7 @@
 {
-  "name": "eleventy-shop",
+  "name": "learn-programming-in-java-shop",
   "version": "5.0.2",
-  "description": "A starter template for eleventy ecwid online shop.",
+  "description": "Learn Programming in Java Shop",
   "scripts": {
     "build": "eleventy",
     "watch": "eleventy --watch",
